@@ -1,0 +1,43 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  max-height: 90vh;
+  padding-top: 20px;
+  overflow-y: scroll;
+}
+
+.flight-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flight {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.flight-dual {
+  max-width: 48%;
+  flex-basis: 48%;
+}
+
+.flight-single {
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.airline-logo {
+  margin: 15px 0;
+}
+
+.flight-id {
+  margin: 25px 0 10px;
+  color: #c1c1c1;
+}
+
+.name {
+  margin-bottom: 10px;
+}
