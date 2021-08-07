@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import { fetchList } from "../../api"
+import  fetchList  from "../../api"
 import "./index.css"
 
 const List = () => {
